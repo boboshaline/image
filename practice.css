@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(Pins/pic12.jpg);
+    background-position: center;
+    background-color: lightskyblue;
+    background-blend-mode: luminosity;
+    position: relative;
+    
+}
+.header h1{
+    font-weight: 300;
+    font-size: 62px;
+    
+}
+.header p{
+    font-weight: 200;
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: brown;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    width: 200px;
+    height: 40px;
+    background: aquamarine;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: orange;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: blueviolet;
+    border: 2px solid orange;
+    margin-top: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: orange;
+    font-size: 15px;
+
+
+}
+
+.btn:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background-color: blue;
+    position: absolute;
+    top: 90px;
+    left: 800px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+     width: 220px;
+     text-align: center;
+     color: rgb(90, 8, 87);
+     font-size: 22px;
+     background-color: antiquewhite;
+     border-radius: 10px;
+     margin: 2px;
+     padding: 8px;
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid blueviolet;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: orange;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: black;
+
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+    transition: 0.4s;
+
+}
+.btnn:hover{
+    background: wheat;
+    color: orange;
+}
